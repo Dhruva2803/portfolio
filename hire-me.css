@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:lightgoldenrodyellow; */
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 80%;
+    background-color: rgb(235, 238, 239, 0.5);
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    margin: 15px 0 10px 15px;
+}
+
+.tabs {
+    height: inherit;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2%;
+    color: blue;
+}
+
+.tabs a {
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+}
+
+.tabs a:hover {
+    color: rgb(57, 73, 244);
+    border-bottom: 3px solid;
+}
+
+.buttons {
+    height: inherit;
+    width: 10%;
+}
+
+.buttons button {
+    height: 40px;
+    width: 80%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: rgb(57, 73, 244);
+    color: white;
+}
+.buttons button a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+   ;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 4%;
+}
+.left{
+    height: 400px;
+    width: 40%;
+    /* border: 2px solid red; */
+}
+.left p{
+    font-size: 22px;
+ 
+    margin-bottom: 30px;
+}
+.info{
+    display: flex;
+    gap: 3%;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    /* background-color:rgb(240, 168, 80); */
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 6%;
+}
+.icon i{
+    margin: 9px;
+    color: black;
+    /* background-color: rgb(240, 168, 80); */
+
+}
+.details h4{
+    font-size: 20px;
+    
+}
+.details p{
+
+    font-size: 18px;
+}
+.right{
+    height: 400px;
+    width: 35%;
+    /* border: 2px solid blue; */
+}
+form{
+    /* background-color: rgb(240, 168, 80, 0.5); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    border-radius: 5px;
+    height: 380px;
+    
+}
+
+label{
+    margin: 5px 0 0 10px;
+    padding-top: 10px;
+    font-weight: 700;
+    /* background-color:rgb(240, 168, 80, 0.5) ; */
+}
+.right input{
+    width: 95%;
+    height: 35px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.right textarea{
+    width: 95%;
+    height: 7rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+.right button{
+    width: 95%;
+    height: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+}
+.rating p{
+    color: red !important;
+}
